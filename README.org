@@ -1,0 +1,11 @@
+#+TITLE: Understanding Science as Art
+#+AUTHOR: Chahak Mehta
+#+DATE: 28 March, 2021
+
+During my current work, and past experience too, I get lost in the math and theory of science. Many a times, everything just becomes a series of differential equations (and such) and I forget the underlying beauty of it. So, I have decided to try and maintain a collection of various visually interesting scientific simulations. I hope that it provides me a reminder of the bigger picture and at the same time, provide me the motivation to improve this collection.
+
+* Gallery
+
+#+NAME: Lorenz Attractors
+#+CAPTION: The journey of a point through the Lorenz Attractor
+[[file:lorenz-attractor/lorenz-black.gif]]
