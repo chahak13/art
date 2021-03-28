@@ -6,6 +6,6 @@ During my current work, and past experience too, I get overwhelmed by the math a
 
 * Gallery
 
-#+NAME: Lorenz Attractors
 #+CAPTION: The journey of a point through the Lorenz Attractor
+#+NAME: fig:lorenz
 [[file:lorenz-attractor/lorenz-black.gif]]
