@@ -18,4 +18,4 @@ During my current work, and past experience too, I get overwhelmed by the math a
 
 ** Mutation
 #+NAME: fig:mutation
-[[file:mutation/life-last.gif]]
+[[file:mutation/life-last-white.gif]]

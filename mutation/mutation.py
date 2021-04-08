@@ -38,8 +38,8 @@ def update(frame, scatter, pbar):
     return scatter
 
 fig, ax = plt.subplots(figsize=(5,5))
-ax.set_facecolor("black")
-scatter = ax.scatter(X, Y, s=2.5, edgecolor="none", facecolor="white", alpha=0.5)
+# ax.set_facecolor("black")
+scatter = ax.scatter(X, Y, s=2.5, edgecolor="none", facecolor="black", alpha=0.5)
 ax.set_xticks([])
 ax.set_yticks([])
 fig.tight_layout()
@@ -48,6 +48,6 @@ total_frames = 300
 pbar = tqdm.tqdm(total=total_frames)
 anim = FuncAnimation(fig, update, frames=total_frames, fargs=(scatter, pbar))
 pbar2 = tqdm.tqdm(total=total_frames)
-anim.save('life-last.gif', writer='imagemagick', fps=30, progress_callback=lambda i,n: pbar2.update(1))
+anim.save('life-last-white.gif', writer='imagemagick', fps=30, progress_callback=lambda i,n: pbar2.update(1))
 pbar.close()
 pbar2.close()
