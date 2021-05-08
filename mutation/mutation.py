@@ -37,7 +37,7 @@ def update(frame, scatter, pbar):
     scatter.set_offsets(offsets)
     return scatter
 
-fig, ax = plt.subplots(figsize=(5,5))
+fig, ax = plt.subplots(figsize=(5,5), frameon=False)
 # ax.set_facecolor("black")
 scatter = ax.scatter(X, Y, s=2.5, edgecolor="none", facecolor="black", alpha=0.5)
 ax.set_xticks([])
